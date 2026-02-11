@@ -1,2 +1,3 @@
-# agentic-ai-90-days
-Building production-grade Agentic AI systems in 90 days — including tool-using agents, CodeAct loops, recursive LLM workflows, parsing engines (ANTLR), multi-agent orchestration, caching layers, and multi-LLM routing strategies.
+# Agentic AI — 90 Day Engineering Build
+
+This repository documents a structured 90-day journey to design, implement, and optimize production-grade AI agents — covering tool usage, autonomous code execution, recursive reasoning, parsing systems, validation pipelines, caching, and multi-LLM routing strategies.
