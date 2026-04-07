@@ -70,8 +70,14 @@ tool_call_history = []
 # AGENT LOOP
 # -------------------------
 while step < max_steps:
+
     step += 1
     print(f"\n--- Step {step} ---")
+    MAX_MESSAGES = 4
+
+    if len(conversation) > MAX_MESSAGES:
+        print("Trimming conversation memory...")
+        conversation = conversation[-MAX_MESSAGES:]
 
     response = client.chat.completions.create(
         model="gpt-4o-mini",

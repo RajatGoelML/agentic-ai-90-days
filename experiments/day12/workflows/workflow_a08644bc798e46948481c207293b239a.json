@@ -1,0 +1,18 @@
+{
+  "workflow_id": "workflow_a08644bc798e46948481c207293b239a",
+  "created_at": "2026-02-21T13:51:01.230707",
+  "last_updated": "2026-02-21T13:51:07.658618",
+  "question": "What is the sqaure root of 111?",
+  "current_state": "COMPLETED",
+  "plan": {
+    "action": "final_answer",
+    "content": "The square root of 111 is approximately 10.54."
+  },
+  "tool_result": {
+    "status": "success",
+    "output": "10.535653752852738"
+  },
+  "final_answer": "The square root of 111 is approximately 10.54.",
+  "verification_status": "approve",
+  "error": null
+}
