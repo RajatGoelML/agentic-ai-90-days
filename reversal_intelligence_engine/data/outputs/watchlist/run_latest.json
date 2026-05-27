@@ -1,0 +1,714 @@
+{
+    "generated_at": "2026-05-22T11:38:11.986070+00:00",
+    "run_number": 34,
+    "stocks_analyzed": 8,
+    "token_usage": {
+        "model": "gpt-4.1-mini",
+        "total_llm_calls": 32,
+        "input_tokens": 23856,
+        "output_tokens": 6288,
+        "total_tokens": 30144,
+        "estimated_cost_usd": 0.019603
+    },
+    "recommendations": [
+        {
+            "decision": "GOOD_COMPANY_BAD_PRICE",
+            "confidence": 0.62,
+            "summary": "HONAUT.NS shows decent fundamentals with high growth and moderate profitability but remains overvalued and lacks confirmed technical reversal signals, indicating a potential recovery that is not yet fully established.",
+            "reversal_quality": "The reversal is plausible but currently uncertain, with consolidation ongoing and no higher lows or stabilizing price action formed.",
+            "supporting_signals": [
+                "EARNINGS_GROWTH_NORMALIZING",
+                "POSITIVE_REVENUE_GROWTH",
+                "RECLAIMING_SHORT_MA"
+            ],
+            "risk_signals": [
+                "PREMIUM_TO_SECTOR",
+                "LOW_ROE"
+            ],
+            "bull_case_summary": "The stock is consolidating after a healthy correction with strong revenue growth and increasing volume, suggesting a base for potential recovery.",
+            "bear_case_summary": "Overvaluation and weak profitability combined with lack of technical confirmation increase risk of continued downtrend.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 20,
+                "bull_case_upside_pct": 35,
+                "risk_reward_view": "NEUTRAL"
+            },
+            "parse_failed": false,
+            "symbol": "HONAUT.NS",
+            "sector": "Industrials",
+            "company_name": "Honeywell Automation India Limited",
+            "chartink_sector": "consumer discretionary",
+            "screening_price": 35340.0,
+            "screening_volume": 58682.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Honeywell Automation India Ltd (HONAUT) Share Price"
+            ],
+            "news_sentiment": {
+                "bullish": [],
+                "bearish": [],
+                "neutral_count": 1,
+                "net_sentiment": "NEUTRAL"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "WEAK",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 59.6,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": true,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "OUTPERFORMING",
+                "rs_improving": false,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 14.1,
+                "pct_from_52w_high": 14.1,
+                "pct_from_52w_low": 34.5,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "INCREASING"
+            },
+            "metrics": {
+                "pe_ratio": 59.563267,
+                "forward_pe": 42.51423,
+                "roe": 12.35,
+                "eps": 594.41,
+                "revenue_growth": 10.2,
+                "market_cap": 313240748032
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.67,
+            "summary": "TATAELXSI.NS exhibits early reversal technical signs supported by strong profitability and improving relative strength despite overvaluation and slow growth. The 35% correction and bullish catalysts suggest potential recovery, though lack of higher lows and stabilization tempers conviction.",
+            "reversal_quality": "Credible early reversal in progress, not yet confirmed; structural decline unlikely but risks remain from profit decline and valuation premium.",
+            "supporting_signals": [
+                "EARNINGS_GROWTH_NORMALIZING",
+                "STRONG_ROE",
+                "EARLY_REVERSAL_FORMING",
+                "RECLAIMING_SHORT_MA",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "PREMIUM_TO_SECTOR",
+                "LOW_REVENUE_GROWTH"
+            ],
+            "bull_case_summary": "Early reversal signs and strong profitability combined with positive revenue growth and raised price targets support recovery potential.",
+            "bear_case_summary": "Profit decline and valuation premium pose risks to sustained recovery, with no higher lows or stabilization yet.",
+            "risk_reward": {
+                "base_case_upside_pct": 25,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 40,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "TATAELXSI.NS",
+            "sector": "Technology",
+            "company_name": "Tata Elxsi Limited",
+            "chartink_sector": "i.t",
+            "screening_price": 4312.6,
+            "screening_volume": 254193.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Tata Elxsi operating revenue at Rs. 993.8 Cr, registers healthy growth of 4.2% QoQ",
+                "JPMorgan raises Tata Elxsi stock price target to INR5,100 on strong Q3",
+                "Tata Elxsi shares shed 3% after Q3 profit declines 45% YoY",
+                "Best AI Stocks in India: Top Performers and Future Trends",
+                "Tata Elxsi stock price target lowered to INR3,800 by JPMorgan"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Revenue growth of 4.2% QoQ indicates strong business performance.",
+                    "JPMorgan raises price target to INR5,100 on strong Q3 results."
+                ],
+                "bearish": [
+                    "Shares drop 3% after Q3 profit declines 45% YoY."
+                ],
+                "neutral_count": 2,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "STRONG",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 42.8,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 35.0,
+                "pct_from_52w_high": 35.0,
+                "pct_from_52w_low": 8.4,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 42.76885,
+                "forward_pe": 27.45991,
+                "roe": 21.3,
+                "eps": 100.8,
+                "revenue_growth": 5.8,
+                "market_cap": 268568870912
+            }
+        },
+        {
+            "decision": "STRONG_BUY",
+            "confidence": 0.87,
+            "summary": "MPHASIS.NS demonstrates strong fundamentals with high growth and profitability combined with early technical reversal signals including reclaiming short-term moving average and improving relative strength. Despite the absence of higher lows or full stabilization, the multiple supporting signals and positive catalysts suggest a credible early-stage recovery opportunity.",
+            "reversal_quality": "Credible early reversal with strong fundamental backing and technical signs of bottoming after a significant correction, though full confirmation requires higher lows and sustained momentum.",
+            "supporting_signals": [
+                "EARNINGS_GROWTH_NORMALIZING",
+                "STRONG_ROE",
+                "POSITIVE_REVENUE_GROWTH",
+                "EARLY_REVERSAL_FORMING",
+                "RECLAIMING_SHORT_MA",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [],
+            "bull_case_summary": "Strong profitability and growth combined with early technical signs and positive corporate catalysts support a credible recovery.",
+            "bear_case_summary": "Lack of higher lows and price stabilization temper confidence, with risk that momentum may not sustain.",
+            "risk_reward": {
+                "base_case_upside_pct": 20,
+                "bear_case_downside_pct": 10,
+                "bull_case_upside_pct": 35,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "MPHASIS.NS",
+            "sector": "Technology",
+            "company_name": "Mphasis Limited",
+            "chartink_sector": "i.t",
+            "screening_price": 2222.4,
+            "screening_volume": 364831.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Mphasis appoints Richard Miller as Global Head of Insurance Business",
+                "Best AI Stocks in India: Top Performers and Future Trends",
+                "Mphasis Launches \"AI Without Intelligence Is Artificial™\" Campaign defining AI's Role in Enterprise Transformation",
+                "Indian shares dragged down by Kotak Mahindra Bank, TCS; trade deal delay weighs"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Mphasis strengthens leadership with new Global Head of Insurance Business",
+                    "Mphasis drives enterprise transformation with innovative AI campaign"
+                ],
+                "bearish": [
+                    "Indian shares fall due to trade deal delay impacting market sentiment"
+                ],
+                "neutral_count": 1,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "FAIRLY_VALUED",
+                "profitability": "STRONG",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 23.6,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "SLIGHT_PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "FAIR_TO_SLIGHTLY_EXPENSIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 25.9,
+                "pct_from_52w_high": 25.9,
+                "pct_from_52w_low": 8.5,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 23.584845,
+                "forward_pe": 17.455847,
+                "roe": 18.29,
+                "eps": 94.23,
+                "revenue_growth": 14.4,
+                "market_cap": 424071790592
+            }
+        },
+        {
+            "decision": "GOOD_COMPANY_BAD_PRICE",
+            "confidence": 0.62,
+            "summary": "HDFCLIFE.NS shows some early signs of technical stabilization with improving relative strength but lacks confirming volume and higher lows, while fundamentals remain weak and valuation expensive. The reversal is plausible but not yet confirmed, warranting caution and a wait-for-entry approach.",
+            "reversal_quality": "The reversal is uncertain and in transition, with technical signals mixed and fundamentals indicating structural weakness rather than a clear recovery.",
+            "supporting_signals": [
+                "EARNINGS_GROWTH_NORMALIZING",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "PREMIUM_TO_SECTOR",
+                "LOW_ROE",
+                "LOW_REVENUE_GROWTH"
+            ],
+            "bull_case_summary": "Improving relative strength and partial valuation reset amid positive macro news suggest potential for a bottoming process.",
+            "bear_case_summary": "Weak profitability, negative revenue growth, and expensive valuation imply structural challenges and risk of continued downtrend.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 25,
+                "bull_case_upside_pct": 35,
+                "risk_reward_view": "NEUTRAL"
+            },
+            "parse_failed": false,
+            "symbol": "HDFCLIFE.NS",
+            "sector": "Financial Services",
+            "company_name": "HDFC Life Insurance Company Limited",
+            "chartink_sector": "financials",
+            "screening_price": 616.25,
+            "screening_volume": 3158975.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Canadian Life Companies Split Corp. Declares Class A & Preferred Share Dividend",
+                "Indian shares log second weekly gains on US-Iran peace deal hopes",
+                "India's Canara HSBC Life makes muted debut, valuation at $1.2 billion",
+                "HDFCLIFE Stock Price and Chart — NSE:HDFCLIFE",
+                "HDFC Life Share Price Today, HDFC Life Stock Price Live NSE/BSE Updates"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Indian shares rise on US-Iran peace deal hopes",
+                    "Canara HSBC Life valued at $1.2 billion on debut"
+                ],
+                "bearish": [],
+                "neutral_count": 3,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "WEAK",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 69.7,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "UNDERPERFORMING",
+                "rs_improving": true,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 24.3,
+                "pct_from_52w_high": 24.3,
+                "pct_from_52w_low": 8.9,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": false,
+                "volume_signal": "DECLINING"
+            },
+            "metrics": {
+                "pe_ratio": 69.67231,
+                "forward_pe": 50.293636,
+                "roe": 11.28,
+                "eps": 8.85,
+                "revenue_growth": -17.7,
+                "market_cap": 1330178686976
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.68,
+            "summary": "Patanjali.NS shows a credible early reversal supported by improving relative strength, volume accumulation, and high revenue growth despite overvaluation and unknown profitability. The technical signals indicate nascent recovery but lack higher lows and full stabilization, making the reversal fragile but plausible.",
+            "reversal_quality": "Credible early reversal in progress; not a structural decline but still fragile without confirmed higher lows or stabilization.",
+            "supporting_signals": [
+                "POSITIVE_REVENUE_GROWTH",
+                "EARLY_REVERSAL_FORMING",
+                "RECLAIMING_SHORT_MA",
+                "VOLUME_ACCUMULATION",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "PREMIUM_TO_SECTOR"
+            ],
+            "bull_case_summary": "Early reversal signals combined with high growth and improving technicals support a potential recovery.",
+            "bear_case_summary": "Overvaluation and unknown profitability create uncertainty, and lack of higher lows/stabilization risks reversal failure.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 20,
+                "bull_case_upside_pct": 35,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "PATANJALI.NS",
+            "sector": "Consumer Defensive",
+            "company_name": "Patanjali Foods Limited",
+            "chartink_sector": "fmcg",
+            "screening_price": 463.45,
+            "screening_volume": 1174865.0,
+            "data_warnings": [],
+            "latest_news": [
+                "India's Patanjali Foods posts profit rise as tax cuts boost demand",
+                "India's Patanjali Foods falls after stock exchanges freeze promoters' shares",
+                "Q3 earnings ahead: Patanjali Foods (PATANJALI.NS) NSE 10 Feb 2026 : margins in focus"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Profit rise driven by tax cuts boosts demand for Patanjali Foods"
+                ],
+                "bearish": [
+                    "Stock falls after promoters' shares are frozen by exchanges"
+                ],
+                "neutral_count": 1,
+                "net_sentiment": "MIXED"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "UNKNOWN",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 30.6,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": false,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "DOWNTREND",
+                "above_200_dma": false,
+                "above_50_dma": false,
+                "relative_strength_vs_index": "UNDERPERFORMING",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 27.8,
+                "pct_from_52w_high": 27.8,
+                "pct_from_52w_low": 5.1,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "INCREASING"
+            },
+            "metrics": {
+                "pe_ratio": 30.590761,
+                "forward_pe": 29.152384,
+                "roe": null,
+                "eps": 15.15,
+                "revenue_growth": 15.2,
+                "market_cap": 504177852416
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.68,
+            "summary": "MAHLIFE.NS exhibits early reversal technical signs with reclaiming short-term moving averages and improving relative strength despite weak profitability and lack of higher lows. The high growth offsets some fundamental weakness, but the reversal remains nascent and requires confirmation.",
+            "reversal_quality": "Credible early reversal with initial technical improvements, but structural profitability weakness and absence of price stabilization suggest caution.",
+            "supporting_signals": [
+                "POSITIVE_REVENUE_GROWTH",
+                "EARLY_REVERSAL_FORMING",
+                "RECLAIMING_SHORT_MA",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "LOW_ROE"
+            ],
+            "bull_case_summary": "Early reversal signs combined with very high revenue growth and fair valuation suggest upside potential as growth normalizes.",
+            "bear_case_summary": "Weak profitability and lack of price stabilization may limit recovery and continuation of downtrend is possible.",
+            "risk_reward": {
+                "base_case_upside_pct": 20,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 40,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "MAHLIFE.NS",
+            "sector": "Real Estate",
+            "company_name": "Mahindra Lifespace Developers Limited",
+            "chartink_sector": "realty",
+            "screening_price": 343.7,
+            "screening_volume": 105335.0,
+            "data_warnings": [
+                "⚠️  Negative EBITDA — poor operating cash generation"
+            ],
+            "latest_news": [
+                "Getting In Cheap On Mahindra Lifespace Developers Limited (NSE:MAHLIFE) Might Be Difficult"
+            ],
+            "news_sentiment": {
+                "bullish": [],
+                "bearish": [
+                    "Buying opportunity limited due to high entry price."
+                ],
+                "neutral_count": 0,
+                "net_sentiment": "BEARISH"
+            },
+            "signals": {
+                "valuation": "FAIRLY_VALUED",
+                "profitability": "WEAK",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 23.3,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "SLIGHT_PREMIUM",
+                "forward_pe_compression": false,
+                "valuation_view": "FAIR_TO_SLIGHTLY_EXPENSIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 19.1,
+                "pct_from_52w_high": 19.1,
+                "pct_from_52w_low": 15.9,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 23.34018,
+                "forward_pe": 20.317778,
+                "roe": 10.8,
+                "eps": 14.61,
+                "revenue_growth": 7147.0,
+                "market_cap": 72749867008
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.77,
+            "summary": "REDINGTON.NS shows a credible early reversal supported by strong revenue growth, undervaluation, and improving relative strength despite weak profitability and incomplete technical stabilization. The reversal thesis is plausible but requires confirmation of higher lows and volume stabilization to reduce risk.",
+            "reversal_quality": "Credible early reversal with strong growth and valuation support, but technical signals are incomplete and profitability risks remain.",
+            "supporting_signals": [
+                "SECTOR_DISCOUNT",
+                "EARNINGS_GROWTH_NORMALIZING",
+                "POSITIVE_REVENUE_GROWTH",
+                "EARLY_REVERSAL_FORMING",
+                "RECLAIMING_SHORT_MA",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "LOW_ROE"
+            ],
+            "bull_case_summary": "Deep valuation discount combined with strong revenue growth and early technical signs support a nascent reversal.",
+            "bear_case_summary": "Weak profitability, earnings miss, and lack of higher lows or volume stabilization raise concerns about reversal sustainability.",
+            "risk_reward": {
+                "base_case_upside_pct": 25,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 40,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "REDINGTON.NS",
+            "sector": "Technology",
+            "company_name": "Redington Limited",
+            "chartink_sector": "services",
+            "screening_price": 221.07,
+            "screening_volume": 1961350.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Redington MD and Group CEO V.S. Hariharan Appointed to GTDC Executive Committee",
+                "When Should You Buy Redington (India) Limited (NSE:REDINGTON)?",
+                "Redington Share Price Today | NSE: REDI",
+                "REDINGTON.NS Earnings Miss: EPS Down 8.26%, Revenue Beats",
+                "Redington Shares Surge 15% After Report of 25% iPhone Production Shift to India"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Redington shares surge 15% on increased iPhone production in India"
+                ],
+                "bearish": [
+                    "Earnings miss with EPS down 8.26% despite revenue beat"
+                ],
+                "neutral_count": 3,
+                "net_sentiment": "MIXED"
+            },
+            "signals": {
+                "valuation": "UNDERVALUED_VS_SECTOR",
+                "profitability": "WEAK",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 11.6,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "DEEP_DISCOUNT",
+                "forward_pe_compression": true,
+                "valuation_view": "UNDERVALUED"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "UNDERPERFORMING",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 31.5,
+                "pct_from_52w_high": 31.5,
+                "pct_from_52w_low": 10.6,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "DECLINING"
+            },
+            "metrics": {
+                "pe_ratio": 11.597587,
+                "forward_pe": 8.156827,
+                "roe": 13.09,
+                "eps": 19.06,
+                "revenue_growth": 25.1,
+                "market_cap": 172811239424
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.68,
+            "summary": "WIPRO.NS exhibits a credible early reversal with strong profitability and undervaluation supporting recovery potential despite slow revenue growth and lack of higher lows. The technical signals show initial buying interest and reclaiming of short-term moving averages, indicating a nascent bottoming process.",
+            "reversal_quality": "Credible early reversal in progress, not a structural decline, but stabilization and higher lows are yet to confirm a sustained uptrend.",
+            "supporting_signals": [
+                "SECTOR_DISCOUNT",
+                "STRONG_ROE",
+                "EARLY_REVERSAL_FORMING",
+                "RECLAIMING_SHORT_MA",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "LOW_REVENUE_GROWTH"
+            ],
+            "bull_case_summary": "Early reversal signs combined with undervaluation and strong profitability position WIPRO.NS well for recovery.",
+            "bear_case_summary": "Slow revenue growth and lack of price stabilization may limit upside and delay a confirmed reversal.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 10,
+                "bull_case_upside_pct": 30,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "WIPRO.NS",
+            "sector": "Technology",
+            "company_name": "Wipro Limited",
+            "chartink_sector": "i.t",
+            "screening_price": 202.97,
+            "screening_volume": 37069046.0,
+            "data_warnings": [],
+            "latest_news": [
+                "WIPRO.NS Stock Momentum Shift: What Smart Investors Are Watching Right Now",
+                "Best AI Stocks in India: Top Performers and Future Trends",
+                "Wipro shares rise as Indian IT firm's quarterly results top estimates",
+                "Wipro Stock: Consider Above-Consensus Earnings And Muted Prospects (NYSE:WIT)",
+                "Top Stock Market Highlights of the Week: Wipro and Olam Group, Frasers Property and Singapore’s Record Property Investment Sales"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Wipro shares rise as Indian IT firm's quarterly results top estimates"
+                ],
+                "bearish": [
+                    "Consider above-consensus earnings but muted prospects may limit upside"
+                ],
+                "neutral_count": 3,
+                "net_sentiment": "MIXED"
+            },
+            "signals": {
+                "valuation": "UNDERVALUED_VS_SECTOR",
+                "profitability": "STRONG",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 16.2,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "DISCOUNT",
+                "forward_pe_compression": false,
+                "valuation_view": "ATTRACTIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 23.6,
+                "pct_from_52w_high": 23.6,
+                "pct_from_52w_low": 8.3,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 16.171177,
+                "forward_pe": 14.136747,
+                "roe": 15.49,
+                "eps": 12.56,
+                "revenue_growth": 7.7,
+                "market_cap": 2129630461952
+            }
+        }
+    ],
+    "execution_log": [
+        {
+            "node": "INGEST",
+            "status": "SUCCESS",
+            "duration": 0.02
+        },
+        {
+            "node": "ENRICHMENT",
+            "status": "SUCCESS",
+            "duration": 3.38
+        },
+        {
+            "node": "SIGNAL",
+            "status": "SUCCESS",
+            "duration": 126.48
+        },
+        {
+            "node": "DEBATE",
+            "status": "SUCCESS",
+            "duration": 96.88
+        },
+        {
+            "node": "WATCHLIST",
+            "status": "SUCCESS",
+            "duration": 0.03
+        }
+    ]
+}

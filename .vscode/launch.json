@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Reversal Engine",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/reversal_intelligence_engine/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "cwd": "${workspaceFolder}",
+            "env": {"PYTHONPATH": "${workspaceFolder}"}
+        },
+        {
+            "name": "Debug with Custom Node",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/reversal_intelligence_engine/main.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "cwd": "${workspaceFolder}",
+            "env": {"PYTHONPATH": "${workspaceFolder}"},
+            "stopOnEntry": true
+        }
+    ]
+}

@@ -1,0 +1,361 @@
+{
+    "generated_at": "2026-05-22T10:37:09.484058+00:00",
+    "run_number": 30,
+    "stocks_analyzed": 4,
+    "token_usage": {
+        "model": "gpt-4.1-mini",
+        "total_llm_calls": 16,
+        "input_tokens": 11530,
+        "output_tokens": 2986,
+        "total_tokens": 14516,
+        "estimated_cost_usd": 0.00939
+    },
+    "recommendations": [
+        {
+            "decision": "GOOD_COMPANY_BAD_PRICE",
+            "confidence": 0.65,
+            "summary": "HONAUT.NS shows decent fundamentals with high growth and moderate profitability but lacks technical reversal confirmation, remaining in a consolidation phase without higher lows or stabilizing price action.",
+            "reversal_quality": "The stock is in a transition consolidation phase indicating a potential base forming rather than a confirmed reversal or structural decline.",
+            "supporting_signals": [
+                "HIGH_GROWTH",
+                "POSITIVE_REVENUE_GROWTH",
+                "EARNINGS_GROWTH_NORMALIZING",
+                "INCREASING_VOLUME"
+            ],
+            "risk_signals": [
+                "OVERVALUED_VS_SECTOR",
+                "WEAK_PROFITABILITY",
+                "LOW_ROE",
+                "NO_HIGHER_LOWS",
+                "NO_PRICE_STABILIZING",
+                "NO_RELATIVE_STRENGTH_IMPROVEMENT"
+            ],
+            "bull_case_summary": "High revenue growth and earnings normalization suggest underlying business strength despite current price correction.",
+            "bear_case_summary": "Premium valuation and weak profitability metrics combined with lack of technical reversal signals increase risk of continued downtrend.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 20,
+                "bull_case_upside_pct": 30,
+                "risk_reward_view": "NEUTRAL"
+            },
+            "parse_failed": false,
+            "symbol": "HONAUT.NS",
+            "sector": "Industrials",
+            "company_name": "Honeywell Automation India Limited",
+            "chartink_sector": "consumer discretionary",
+            "screening_price": 35340.0,
+            "screening_volume": 58682.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Honeywell Automation India Ltd (HONAUT) Share Price"
+            ],
+            "news_sentiment": {
+                "bullish": [],
+                "bearish": [],
+                "neutral_count": 1,
+                "net_sentiment": "NEUTRAL"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "WEAK",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 59.6,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": true,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "OUTPERFORMING",
+                "rs_improving": false,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 14.1,
+                "pct_from_52w_high": 14.1,
+                "pct_from_52w_low": 34.5,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "INCREASING"
+            },
+            "metrics": {
+                "pe_ratio": 59.563267,
+                "forward_pe": 42.51423,
+                "roe": 12.35,
+                "eps": 594.41,
+                "revenue_growth": 10.2,
+                "market_cap": 313240748032
+            }
+        },
+        {
+            "decision": "GOOD_COMPANY_BAD_PRICE",
+            "confidence": 0.65,
+            "summary": "TATAELXSI.NS is a fundamentally strong company with high ROE and slow but positive growth, currently in an early reversal phase technically but lacking key confirmation signals such as higher lows and price stabilization. The premium valuation and absence of full technical reversal confirmation suggest waiting for clearer entry signals.",
+            "reversal_quality": "The reversal is nascent and not yet fully credible due to missing higher lows and stabilizing price action, indicating the downtrend may not have conclusively ended.",
+            "supporting_signals": [
+                "STRONG_ROE",
+                "EARLY_REVERSAL_FORMING",
+                "RECLAIMING_SHORT_MA",
+                "RS_IMPROVING",
+                "EARNINGS_GROWTH_NORMALIZING"
+            ],
+            "risk_signals": [
+                "PREMIUM_TO_SECTOR",
+                "LOW_REVENUE_GROWTH",
+                "LACK_OF_HIGHER_LOWS",
+                "LACK_OF_PRICE_STABILIZING"
+            ],
+            "bull_case_summary": "Strong profitability and improving technical indicators suggest potential for recovery.",
+            "bear_case_summary": "Premium valuation and slow growth may limit upside while technical confirmation remains incomplete.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 20,
+                "bull_case_upside_pct": 30,
+                "risk_reward_view": "NEUTRAL"
+            },
+            "parse_failed": false,
+            "symbol": "TATAELXSI.NS",
+            "sector": "Technology",
+            "company_name": "Tata Elxsi Limited",
+            "chartink_sector": "i.t",
+            "screening_price": 4312.6,
+            "screening_volume": 254193.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Tata Elxsi operating revenue at Rs. 993.8 Cr, registers healthy growth of 4.2% QoQ",
+                "JPMorgan raises Tata Elxsi stock price target to INR5,100 on strong Q3",
+                "Tata Elxsi shares shed 3% after Q3 profit declines 45% YoY",
+                "Best AI Stocks in India: Top Performers and Future Trends",
+                "India's Tata Elxsi Q3 profit falls on one-time labour code charge"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Revenue growth of 4.2% QoQ indicates strong business momentum.",
+                    "JPMorgan raises price target on strong Q3 results."
+                ],
+                "bearish": [
+                    "Shares drop 3% after 45% profit decline YoY."
+                ],
+                "neutral_count": 2,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "STRONG",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 42.8,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 35.0,
+                "pct_from_52w_high": 35.0,
+                "pct_from_52w_low": 8.4,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 42.76885,
+                "forward_pe": 27.45991,
+                "roe": 21.3,
+                "eps": 100.8,
+                "revenue_growth": 5.8,
+                "market_cap": 268568870912
+            }
+        },
+        {
+            "decision": "GOOD_COMPANY_BAD_PRICE",
+            "confidence": 0.65,
+            "summary": "MPHASIS.NS has strong fundamentals with high growth and profitability, but lacks full technical confirmation of reversal as higher lows and price stabilization are absent despite being in an early reversal phase.",
+            "reversal_quality": "The reversal is tentative and incomplete; fundamentals are solid but technical signals do not yet confirm a reliable base formation.",
+            "supporting_signals": [
+                "STRONG_ROE",
+                "HIGH_GROWTH",
+                "EARLY_REVERSAL_PHASE",
+                "RECLAIMING_SHORT_TERM_MA",
+                "RS_IMPROVING",
+                "NORMAL_VOLUME"
+            ],
+            "risk_signals": [
+                "Higher Lows False",
+                "Stabilizing False",
+                "Slight Premium Valuation"
+            ],
+            "bull_case_summary": "Strong fundamentals and improving relative strength support nascent recovery potential.",
+            "bear_case_summary": "Lack of higher lows and stabilization suggest the downtrend may persist in the short term.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 10,
+                "bull_case_upside_pct": 30,
+                "risk_reward_view": "NEUTRAL"
+            },
+            "parse_failed": false,
+            "symbol": "MPHASIS.NS",
+            "sector": "Technology",
+            "company_name": "Mphasis Limited",
+            "chartink_sector": "i.t",
+            "screening_price": 2222.4,
+            "screening_volume": 364831.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Mphasis appoints Richard Miller as Global Head of Insurance Business",
+                "Best AI Stocks in India: Top Performers and Future Trends",
+                "Mphasis Launches \"AI Without Intelligence Is Artificial™\" Campaign defining AI's Role in Enterprise Transformation",
+                "Indian shares dragged down by Kotak Mahindra Bank, TCS; trade deal delay weighs"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Mphasis strengthens leadership with new Global Head of Insurance Business",
+                    "Mphasis drives enterprise transformation with innovative AI campaign"
+                ],
+                "bearish": [
+                    "Indian shares fall due to trade deal delay impacting market sentiment"
+                ],
+                "neutral_count": 1,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "FAIRLY_VALUED",
+                "profitability": "STRONG",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 23.6,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "SLIGHT_PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "FAIR_TO_SLIGHTLY_EXPENSIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 25.9,
+                "pct_from_52w_high": 25.9,
+                "pct_from_52w_low": 8.5,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 23.584845,
+                "forward_pe": 17.455847,
+                "roe": 18.29,
+                "eps": 94.23,
+                "revenue_growth": 14.4,
+                "market_cap": 424071790592
+            }
+        },
+        {
+            "decision": "HIGH_RISK_REVERSAL",
+            "confidence": 0.45,
+            "summary": "Safari.NS shows early reversal phase technicals but lacks confirmation from higher lows and price stabilization, combined with unknown profitability and overvaluation, making the reversal speculative and high risk.",
+            "reversal_quality": "The reversal is tentative with improving relative strength and short-term MA reclaiming, but absence of key technical confirmations and unknown profitability limit confidence.",
+            "supporting_signals": [
+                "reversal_phase=EARLY_REVERSAL",
+                "RS improving",
+                "reclaiming short-term moving average",
+                "high growth"
+            ],
+            "risk_signals": [
+                "higher_lows=False",
+                "price_stabilizing=False",
+                "profitability=UNKNOWN",
+                "overvalued_vs_sector"
+            ],
+            "bull_case_summary": "Early reversal signs combined with strong revenue growth and a bullish acquisition catalyst support potential recovery.",
+            "bear_case_summary": "Unknown profitability and premium valuation pose risks to sustained recovery without technical confirmation.",
+            "risk_reward": {
+                "base_case_upside_pct": 20,
+                "bear_case_downside_pct": 25,
+                "bull_case_upside_pct": 40,
+                "risk_reward_view": "NEUTRAL"
+            },
+            "parse_failed": false,
+            "symbol": "SAFARI.NS",
+            "sector": "Consumer Cyclical",
+            "company_name": "Safari Industries (India) Limited",
+            "chartink_sector": "plastic products",
+            "screening_price": 1525.3,
+            "screening_volume": 41502.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Aurora Cannabis Inc. buys Safari Flower Co. in $26.5M deal",
+                "Tiger ‘trapped’ by safari jeeps in Ranthambore; watch video",
+                "Tadoba-Andhari Tiger Reserve, Maharashtra - 8 best night safari destinations in India for a thrilling adventure",
+                "Tata Armored Safari Storme - Tata Motors at the 2012 DefExpo: Model Showcase!"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Acquisition by Aurora Cannabis could boost Safari Flower Co.'s market presence."
+                ],
+                "bearish": [],
+                "neutral_count": 3,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "UNKNOWN",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 44.6,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "UNDERPERFORMING",
+                "rs_improving": true,
+                "price_structure": "RECLAIMING_SHORT_TERM_MA",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 38.7,
+                "pct_from_52w_high": 38.7,
+                "pct_from_52w_low": 11.7,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 44.596962,
+                "forward_pe": 29.252872,
+                "roe": null,
+                "eps": 34.24,
+                "revenue_growth": 15.7,
+                "market_cap": 74816208896
+            }
+        }
+    ]
+}

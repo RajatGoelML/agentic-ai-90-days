@@ -1,0 +1,65 @@
+﻿:root {
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', 'SF Mono', 'Fira Code', 'Cascadia Code', monospace;
+  --fs-xs: 0.6875rem; --fs-sm: 0.75rem; --fs-base: 0.8125rem; --fs-md: 0.875rem;
+  --fs-lg: 1rem; --fs-xl: 1.125rem; --fs-2xl: 1.5rem; --fs-3xl: 2rem;
+  --fw-normal: 400; --fw-medium: 500; --fw-semibold: 600; --fw-bold: 700;
+  --lh-tight: 1.2; --lh-normal: 1.5; --lh-relaxed: 1.7;
+  --tracking-tight: -0.02em; --tracking-normal: 0; --tracking-wide: 0.04em; --tracking-mono: 0.06em;
+  --sp-1: 4px; --sp-2: 8px; --sp-3: 12px; --sp-4: 16px; --sp-5: 20px; --sp-6: 24px; --sp-8: 32px; --sp-10: 40px; --sp-12: 48px; --sp-16: 64px;
+  --radius-sm: 4px; --radius-md: 6px; --radius-lg: 8px; --radius-xl: 12px; --radius-2xl: 16px; --radius-full: 9999px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.07), 0 2px 4px -1px rgba(0,0,0,0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.08), 0 4px 6px -2px rgba(0,0,0,0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0,0,0,0.08), 0 10px 10px -5px rgba(0,0,0,0.03);
+}
+[data-theme="dark"] {
+  --bg-primary: #0a0b0f; --bg-secondary: #111318; --bg-tertiary: #181a21; --bg-elevated: #1e2029;
+  --bg-hover: #252732; --bg-active: #2d303d; --bg-overlay: rgba(0,0,0,0.6);
+  --border-subtle: rgba(255,255,255,0.06); --border-default: rgba(255,255,255,0.1); --border-strong: rgba(255,255,255,0.16);
+  --text-primary: #f0f0f3; --text-secondary: #9ba1b0; --text-tertiary: #6b7280; --text-muted: #4b5263; --text-inverse: #0a0b0f;
+  --accent-blue: #3b82f6; --accent-blue-subtle: rgba(59,130,246,0.12);
+  --accent-green: #10b981; --accent-green-subtle: rgba(16,185,129,0.12);
+  --accent-red: #ef4444; --accent-red-subtle: rgba(239,68,68,0.1);
+  --accent-amber: #f59e0b; --accent-amber-subtle: rgba(245,158,11,0.12);
+  --accent-purple: #8b5cf6; --accent-purple-subtle: rgba(139,92,246,0.12);
+  --accent-cyan: #06b6d4; --accent-cyan-subtle: rgba(6,182,212,0.12);
+  --accent-orange: #f97316; --accent-orange-subtle: rgba(249,115,22,0.12);
+  --status-strong-buy: #10b981; --status-strong-buy-bg: rgba(16,185,129,0.1);
+  --status-early-reversal: #3b82f6; --status-early-reversal-bg: rgba(59,130,246,0.1);
+  --status-good-company: #8b5cf6; --status-good-company-bg: rgba(139,92,246,0.1);
+  --status-high-risk: #f59e0b; --status-high-risk-bg: rgba(245,158,11,0.1);
+  --status-avoid: #ef4444; --status-avoid-bg: rgba(239,68,68,0.1);
+  --status-watchlist: #06b6d4; --status-watchlist-bg: rgba(6,182,212,0.1);
+  --status-wait: #9ba1b0; --status-wait-bg: rgba(155,161,176,0.1);
+  --status-momentum: #f97316; --status-momentum-bg: rgba(249,115,22,0.1);
+  --bull-color: #10b981; --bull-bg: rgba(16,185,129,0.06); --bull-border: rgba(16,185,129,0.2);
+  --bear-color: #ef4444; --bear-bg: rgba(239,68,68,0.06); --bear-border: rgba(239,68,68,0.2);
+  --judge-color: #3b82f6; --judge-bg: rgba(59,130,246,0.06); --judge-border: rgba(59,130,246,0.2);
+  --node-ingest: #06b6d4; --node-enrich: #8b5cf6; --node-signal: #f59e0b; --node-debate: #3b82f6; --node-watchlist: #10b981;
+}
+[data-theme="light"] {
+  --bg-primary: #f8f9fb; --bg-secondary: #ffffff; --bg-tertiary: #f1f3f6; --bg-elevated: #ffffff;
+  --bg-hover: #f1f3f6; --bg-active: #e5e7eb; --bg-overlay: rgba(0,0,0,0.3);
+  --border-subtle: rgba(0,0,0,0.05); --border-default: rgba(0,0,0,0.1); --border-strong: rgba(0,0,0,0.18);
+  --text-primary: #111827; --text-secondary: #4b5563; --text-tertiary: #6b7280; --text-muted: #9ca3af; --text-inverse: #ffffff;
+  --accent-blue: #2563eb; --accent-blue-subtle: rgba(37,99,235,0.08);
+  --accent-green: #059669; --accent-green-subtle: rgba(5,150,105,0.08);
+  --accent-red: #dc2626; --accent-red-subtle: rgba(220,38,38,0.07);
+  --accent-amber: #d97706; --accent-amber-subtle: rgba(217,119,6,0.08);
+  --accent-purple: #7c3aed; --accent-purple-subtle: rgba(124,58,237,0.08);
+  --accent-cyan: #0891b2; --accent-cyan-subtle: rgba(8,145,178,0.08);
+  --accent-orange: #ea580c; --accent-orange-subtle: rgba(234,88,12,0.08);
+  --status-strong-buy: #059669; --status-strong-buy-bg: rgba(5,150,105,0.08);
+  --status-early-reversal: #2563eb; --status-early-reversal-bg: rgba(37,99,235,0.08);
+  --status-good-company: #7c3aed; --status-good-company-bg: rgba(124,58,237,0.08);
+  --status-high-risk: #d97706; --status-high-risk-bg: rgba(217,119,6,0.08);
+  --status-avoid: #dc2626; --status-avoid-bg: rgba(220,38,38,0.07);
+  --status-watchlist: #0891b2; --status-watchlist-bg: rgba(8,145,178,0.08);
+  --status-wait: #4b5563; --status-wait-bg: rgba(75,85,99,0.08);
+  --status-momentum: #ea580c; --status-momentum-bg: rgba(234,88,12,0.08);
+  --bull-color: #059669; --bull-bg: rgba(5,150,105,0.04); --bull-border: rgba(5,150,105,0.18);
+  --bear-color: #dc2626; --bear-bg: rgba(220,38,38,0.04); --bear-border: rgba(220,38,38,0.18);
+  --judge-color: #2563eb; --judge-bg: rgba(37,99,235,0.04); --judge-border: rgba(37,99,235,0.18);
+  --node-ingest: #0891b2; --node-enrich: #7c3aed; --node-signal: #d97706; --node-debate: #2563eb; --node-watchlist: #059669;
+}

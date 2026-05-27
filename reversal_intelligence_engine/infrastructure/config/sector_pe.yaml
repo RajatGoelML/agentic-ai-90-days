@@ -1,0 +1,124 @@
+# ================================================================
+# config/sector_pe.yaml — Sector PE Reference Bands
+# ================================================================
+# WHY THIS EXISTS:
+#   Sector PE bands are domain knowledge, not code logic.
+#   A sector analyst can update these without touching Python.
+#
+# STRUCTURE per sector:
+#   median : typical fair-value PE for this sector
+#   low    : value zone — at or below = UNDERVALUED
+#   high   : premium zone — above = EXPENSIVE_VS_SECTOR
+#
+# BASED ON: Long-term median PE ranges for Indian + Global markets.
+# UPDATE: Review annually or after major market regime changes.
+# ================================================================
+
+sectors:
+
+  # --- Financials ---
+  Financial Services:
+    median: 16
+    low: 10
+    high: 22
+
+  Banking:
+    median: 14
+    low: 8
+    high: 20
+
+  # --- Technology ---
+  Technology:
+    median: 30
+    low: 20
+    high: 45
+
+  Information Technology:
+    median: 28
+    low: 18
+    high: 42
+
+  # --- Consumer ---
+  Consumer Cyclical:
+    median: 28
+    low: 18
+    high: 40
+
+  Consumer Defensive:
+    median: 35
+    low: 25
+    high: 50
+
+  Auto:
+    median: 24
+    low: 15
+    high: 35
+
+  # --- Healthcare ---
+  Healthcare:
+    median: 30
+    low: 20
+    high: 45
+
+  Hospitals:
+    median: 35
+    low: 22
+    high: 50
+
+  # --- Industrials ---
+  Industrials:
+    median: 22
+    low: 14
+    high: 32
+
+  Capital Goods:
+    median: 25
+    low: 16
+    high: 38
+
+  # --- Materials ---
+  Basic Materials:
+    median: 18
+    low: 10
+    high: 28
+
+  Chemicals:
+    median: 22
+    low: 14
+    high: 35
+
+  Cement:
+    median: 20
+    low: 12
+    high: 30
+
+  # --- Energy ---
+  Energy:
+    median: 12
+    low: 6
+    high: 18
+
+  # --- Utilities ---
+  Utilities:
+    median: 15
+    low: 10
+    high: 22
+
+  # --- Real Estate ---
+  Real Estate:
+    median: 18
+    low: 10
+    high: 28
+
+  # --- Communication ---
+  Communication Services:
+    median: 20
+    low: 12
+    high: 30
+
+# Fallback for any sector not in the table above
+default:
+  median: 20
+  low: 12
+  high: 30
+

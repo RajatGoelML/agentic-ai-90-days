@@ -1,0 +1,108 @@
+{
+    "generated_at": "2026-05-22T09:50:24.732981+00:00",
+    "run_number": 24,
+    "stocks_analyzed": 1,
+    "token_usage": {
+        "model": "gpt-4.1-mini",
+        "total_llm_calls": 4,
+        "input_tokens": 2445,
+        "output_tokens": 810,
+        "total_tokens": 3255,
+        "estimated_cost_usd": 0.002274
+    },
+    "recommendations": [
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.7,
+            "summary": "Kotak Mahindra Bank shows credible early reversal signs with higher lows and improving relative strength amid a consolidation phase, supported by an attractive valuation and positive sentiment from a stock split. However, weak profitability and negative revenue growth pose fundamental risks that could delay or limit recovery.",
+            "reversal_quality": "The stock is in a credible early reversal phase with technical signs of stabilization, but fundamental weaknesses suggest the recovery is not yet fully confirmed.",
+            "supporting_signals": [
+                "SECTOR_DISCOUNT",
+                "EARNINGS_GROWTH_NORMALIZING",
+                "HIGHER_LOWS",
+                "RS_IMPROVING",
+                "UNDERVALUED_VS_SECTOR",
+                "BULLISH_NEWS_SENTIMENT"
+            ],
+            "risk_signals": [
+                "LOW_ROE",
+                "LOW_REVENUE_GROWTH",
+                "NORMAL_VOLUME",
+                "NO_STABILIZING_CONFIRMED",
+                "TRADE_DEAL_DELAY_IMPACT"
+            ],
+            "bull_case_summary": "Early technical reversal signals combined with an undervalued price and positive management actions support a recovery thesis.",
+            "bear_case_summary": "Weak profitability and declining revenue indicate structural challenges that may prevent a sustained recovery.",
+            "risk_reward": {
+                "base_case_upside_pct": 20,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 35,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "KOTAKBANK.NS",
+            "sector": "Financial Services",
+            "company_name": "Kotak Mahindra Bank Limited",
+            "chartink_sector": "bank",
+            "screening_price": 376.0,
+            "screening_volume": 13065308.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Kotak Mahindra Bank weighs Deutsche Bank retail unit",
+                "India's Kotak Mahindra Bank announces first stock split in 15 years",
+                "India's Kotak Mahindra Bank announces first stock split in 15 years",
+                "Kotak Mahindra Bank 5:1 stock split: What shareholders need to know before ex-date",
+                "Indian shares dragged down by Kotak Mahindra Bank, TCS; trade deal delay weighs"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Stock split signals confidence and potential growth for Kotak Mahindra Bank",
+                    "Stock split may increase liquidity and attract more investors",
+                    "Stock split details help shareholders prepare for potential gains"
+                ],
+                "bearish": [
+                    "Shares dragged down due to trade deal delay impacting Kotak Mahindra Bank"
+                ],
+                "neutral_count": 1,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "UNDERVALUED_VS_SECTOR",
+                "profitability": "WEAK",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 19.8,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "FAIR_VALUE",
+                "forward_pe_compression": true,
+                "valuation_view": "ATTRACTIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 13.6,
+                "pct_from_52w_high": 13.6,
+                "pct_from_52w_low": 8.8,
+                "higher_lows_forming": true,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": false,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 19.834967,
+                "forward_pe": 13.735715,
+                "roe": 11.39,
+                "eps": 19.39,
+                "revenue_growth": -11.0,
+                "market_cap": 3825410506752
+            }
+        }
+    ]
+}

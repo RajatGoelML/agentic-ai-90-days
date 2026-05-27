@@ -1,0 +1,105 @@
+{
+    "generated_at": "2026-05-22T09:51:38.213825+00:00",
+    "run_number": 25,
+    "stocks_analyzed": 1,
+    "token_usage": {
+        "model": "gpt-4.1-mini",
+        "total_llm_calls": 4,
+        "input_tokens": 2409,
+        "output_tokens": 759,
+        "total_tokens": 3168,
+        "estimated_cost_usd": 0.002178
+    },
+    "recommendations": [
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.7,
+            "summary": "Kotak Bank shows credible early reversal signs with consolidation, higher lows, and improving relative strength, supported by an undervalued valuation and a bullish stock split catalyst. However, weak profitability and negative revenue growth pose fundamental risks that could delay or limit recovery.",
+            "reversal_quality": "The stock is in a transition consolidation phase with technical signals indicating a potential bottom, but fundamental weaknesses suggest the reversal is not yet fully confirmed.",
+            "supporting_signals": [
+                "SECTOR_DISCOUNT",
+                "EARNINGS_GROWTH_NORMALIZING",
+                "HIGHER_LOWS",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "LOW_ROE",
+                "LOW_REVENUE_GROWTH",
+                "STABILIZING_FALSE",
+                "NORMAL_VOLUME"
+            ],
+            "bull_case_summary": "Technical consolidation with higher lows and improving relative strength combined with undervaluation and a stock split catalyst support an early reversal.",
+            "bear_case_summary": "Weak profitability and negative revenue growth indicate structural challenges that may prevent a sustained recovery.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 20,
+                "bull_case_upside_pct": 30,
+                "risk_reward_view": "NEUTRAL"
+            },
+            "parse_failed": false,
+            "symbol": "KOTAKBANK.NS",
+            "sector": "Financial Services",
+            "company_name": "Kotak Mahindra Bank Limited",
+            "chartink_sector": "bank",
+            "screening_price": 376.0,
+            "screening_volume": 13065308.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Kotak Mahindra Bank weighs Deutsche Bank retail unit",
+                "India's Kotak Mahindra Bank announces first stock split in 15 years",
+                "India's Kotak Mahindra Bank announces first stock split in 15 years",
+                "Kotak Mahindra Bank 5:1 stock split: What shareholders need to know before ex-date",
+                "Indian shares dragged down by Kotak Mahindra Bank, TCS; trade deal delay weighs"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Stock split may increase liquidity and attract investors",
+                    "Stock split may increase liquidity and attract investors",
+                    "Stock split could benefit shareholders before ex-date"
+                ],
+                "bearish": [
+                    "Shares dragged down by Kotak Mahindra Bank due to trade deal delay"
+                ],
+                "neutral_count": 1,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "UNDERVALUED_VS_SECTOR",
+                "profitability": "WEAK",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 19.8,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "FAIR_VALUE",
+                "forward_pe_compression": true,
+                "valuation_view": "ATTRACTIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 13.7,
+                "pct_from_52w_high": 13.7,
+                "pct_from_52w_low": 8.8,
+                "higher_lows_forming": true,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": false,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 19.82981,
+                "forward_pe": 13.732142,
+                "roe": 11.39,
+                "eps": 19.39,
+                "revenue_growth": -11.0,
+                "market_cap": 3824415932416
+            }
+        }
+    ]
+}

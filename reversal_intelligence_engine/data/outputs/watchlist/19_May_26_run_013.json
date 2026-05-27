@@ -1,0 +1,96 @@
+{
+    "generated_at": "2026-05-19T17:56:46.988898",
+    "stocks_analyzed": 1,
+    "token_usage": {
+        "model": "gpt-4.1-mini",
+        "total_llm_calls": 4,
+        "input_tokens": 2248,
+        "output_tokens": 707,
+        "total_tokens": 2955,
+        "estimated_cost_usd": 0.00203
+    },
+    "recommendations": [
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.75,
+            "summary": "KotakBank shows credible early reversal signs with higher lows, improving relative strength, and consolidation after a moderate correction, despite weak profitability and slow growth. The pending acquisition and stock split provide catalysts supporting recovery potential.",
+            "reversal_quality": "The reversal appears credible as technical signals indicate stabilization and early recovery, while fundamentals remain challenged but not structurally impaired.",
+            "supporting_signals": [
+                "HIGHER_LOWS",
+                "RS_IMPROVING",
+                "RECLAIMING_SHORT_MA",
+                "EARNINGS_GROWTH_NORMALIZING"
+            ],
+            "risk_signals": [
+                "LOW_ROE",
+                "LOW_REVENUE_GROWTH"
+            ],
+            "bull_case_summary": "Technical consolidation with improving momentum and strategic acquisition support an early-stage recovery.",
+            "bear_case_summary": "Weak profitability and negative revenue growth could delay or limit sustained reversal.",
+            "risk_reward": {
+                "base_case_upside_pct": 20,
+                "bear_case_downside_pct": 10,
+                "bull_case_upside_pct": 35,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "symbol": "KOTAKBANK.NS",
+            "sector": "Financial Services",
+            "company_name": "Banks - Regional",
+            "latest_news": [
+                "Kotak Mahindra nears deal to buy Deutsche Bank’s India retail unit – report",
+                "India's Kotak Mahindra Bank announces first stock split in 15 years",
+                "DB to Exit India Retail Unit in Strategic Pivot to Core Operations",
+                "Kotak Mahindra Bank 5:1 stock split: What shareholders need to know before ex-date",
+                "Indian shares dragged down by Kotak Mahindra Bank, TCS; trade deal delay weighs"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Kotak Mahindra nears deal to buy Deutsche Bank’s India retail unit, expanding market presence.",
+                    "Kotak Mahindra Bank announces first stock split in 15 years, improving liquidity."
+                ],
+                "bearish": [
+                    "Indian shares dragged down by Kotak Mahindra Bank, reflecting market concerns."
+                ],
+                "neutral_count": 2,
+                "net_sentiment": "MIXED"
+            },
+            "signals": {
+                "valuation": "FAIRLY_VALUED",
+                "profitability": "WEAK",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 19.7,
+                "sector_median_pe": 16,
+                "sector_pe_band": "10-22",
+                "peer_position": "SLIGHT_PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "FAIR_TO_SLIGHTLY_EXPENSIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 14.2,
+                "pct_from_52w_high": 14.2,
+                "pct_from_52w_low": 8.1,
+                "higher_lows_forming": true,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": true,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 19.6983,
+                "forward_pe": 13.641072,
+                "roe": 11.39,
+                "eps": 19.39,
+                "revenue_growth": -11.0,
+                "market_cap": 3799052451840
+            }
+        }
+    ]
+}

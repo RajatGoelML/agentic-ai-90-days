@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reversal Intelligence Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="app-shell">
+    <!-- ═══════════════ HEADER ═══════════════ -->
+    <header class="app-header">
+      <div class="header-left">
+        <div class="header-logo">
+          <div class="logo-icon">RI</div>
+          Reversal Intelligence
+        </div>
+        <div class="header-divider"></div>
+        <span class="header-subtitle">Research Terminal</span>
+        <div id="runningIndicator" class="workflow-running hidden">
+          <div class="dot-pulse"><span></span><span></span><span></span></div>
+          Running Analysis...
+        </div>
+      </div>
+      <div class="header-right">
+        <select id="historySelect" class="filter-select" onchange="handleHistorySelect(this.value)">
+          <option value="">Load Previous Run...</option>
+        </select>
+        <button id="reloadBtn" class="btn btn-secondary" onclick="loadLatestWatchlist()" title="Reload latest results from disk">
+          &#8635; Reload Latest
+        </button>
+        <button id="runBtn" class="btn btn-primary" onclick="runWorkflow()">
+          &#9654; Run Workflow
+        </button>
+        <button id="themeToggle" class="btn-icon" onclick="toggleTheme()" title="Toggle theme">&#9728;&#65039;</button>
+      </div>
+    </header>
+    <!-- ═══════════════ CONTENT ═══════════════ -->
+    <main class="app-content">
+      <!-- Pipeline Progress Bar -->
+      <div id="pipelineBar" class="pipeline"></div>
+      <!-- Summary Stats -->
+      <div id="summaryStats" class="summary-stats"></div>
+      <!-- View Tabs -->
+      <div class="view-tabs">
+        <button class="view-tab active" data-view="watchlist" onclick="switchView('watchlist')">Watchlist</button>
+        <button class="view-tab" data-view="pipeline" onclick="switchView('pipeline')">Pipeline View</button>
+        <button class="view-tab" data-view="log" onclick="switchView('log')">Execution Log</button>
+      </div>
+      <!-- ═══ WATCHLIST VIEW ═══ -->
+      <div id="view-watchlist" class="view-panel">
+        <div class="watchlist-container">
+          <div class="watchlist-toolbar">
+            <div class="watchlist-toolbar__left">
+              <div class="search-wrapper">
+                <span class="search-icon">&#128269;</span>
+                <input type="text" class="search-input" placeholder="Search symbol, sector..." oninput="handleSearch(this.value)">
+              </div>
+              <select id="filterSelect" class="filter-select" onchange="handleFilter(this.value)">
+                <option value="ALL">All Statuses</option>
+              </select>
+              <span id="watchlistCount" class="watchlist-count"></span>
+            </div>
+            <div class="watchlist-toolbar__right">
+            </div>
+          </div>
+          <div style="overflow-x:auto">
+            <table class="watchlist-table">
+              <thead>
+                <tr>
+                  <th data-sort="symbol" onclick="handleSort('symbol')">Symbol <span class="sort-indicator">&#9660;</span></th>
+                  <th data-sort="sector" onclick="handleSort('sector')">Sector <span class="sort-indicator">&#9660;</span></th>
+                  <th data-sort="decision" onclick="handleSort('decision')">Status <span class="sort-indicator">&#9660;</span></th>
+                  <th data-sort="confidence" onclick="handleSort('confidence')">Confidence <span class="sort-indicator">&#9660;</span></th>
+                  <th>Summary</th>
+                  <th>Reversal Quality</th>
+                  <th>Risk/Reward</th>
+                  <th data-sort="market_cap" onclick="handleSort('market_cap')">Mkt Cap <span class="sort-indicator">&#9660;</span></th>
+                </tr>
+              </thead>
+              <tbody id="watchlistTableBody">
+                <tr>
+                  <td colspan="8">
+                    <div class="empty-state">
+                      <div class="empty-state__icon">&#128200;</div>
+                      <div class="empty-state__title">No Analysis Data</div>
+                      <div class="empty-state__desc">Click "Run Workflow" to start the AI research pipeline, or load a previous analysis run.</div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- ═══ PIPELINE VIEW ═══ -->
+      <div id="view-pipeline" class="view-panel hidden">
+        <div id="pipelineViewContent" class="pipeline-view"></div>
+      </div>
+      <!-- ═══ EXECUTION LOG VIEW ═══ -->
+      <div id="view-log" class="view-panel hidden">
+        <div id="executionLogContent"></div>
+      </div>
+    </main>
+  </div>
+  <!-- ═══════════════ DETAIL OVERLAY ═══════════════ -->
+  <div id="detailBackdrop" class="detail-overlay__backdrop" onclick="closeDetail()"></div>
+  <div id="detailOverlay" class="detail-overlay">
+    <div id="detailContent"></div>
+  </div>
+  <!-- Scripts (all inside frontend folder) -->
+  <script src="js/constants.js?v=2"></script>
+  <script src="js/app.js?v=2"></script>
+</body>
+</html>

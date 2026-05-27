@@ -1,0 +1,100 @@
+{
+    "generated_at": "2026-05-15T10:41:26.661678",
+    "stocks_analyzed": 1,
+    "token_usage": {
+        "model": "gpt-4.1-mini",
+        "total_llm_calls": 4,
+        "input_tokens": 2284,
+        "output_tokens": 772,
+        "total_tokens": 3056,
+        "estimated_cost_usd": 0.002149
+    },
+    "recommendations": [
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.75,
+            "summary": "Hyundai shows credible early reversal signs with stabilizing price, higher lows, and improving relative strength despite a 35% correction and slow revenue growth. Strong fundamentals and valuation support a recovery, but margin pressures and earnings misses warrant caution.",
+            "reversal_quality": "Credible early reversal forming with technical stabilization and fundamental strength; no structural decline evident.",
+            "supporting_signals": [
+                "SECTOR_DISCOUNT",
+                "EARNINGS_GROWTH_NORMALIZING",
+                "STRONG_ROE",
+                "EARLY_REVERSAL_FORMING",
+                "HIGHER_LOWS",
+                "PRICE_STABILIZING",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "LOW_REVENUE_GROWTH",
+                "MARGIN_PRESSURE",
+                "EARNINGS_MISS"
+            ],
+            "bull_case_summary": "Early reversal technicals combined with undervaluation and strong ROE suggest a nascent recovery supported by growth catalysts.",
+            "bear_case_summary": "Slow revenue growth and margin pressures could delay earnings recovery and test the early reversal thesis.",
+            "risk_reward": {
+                "base_case_upside_pct": 25,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 40,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "symbol": "HYUNDAI.NS",
+            "sector": "Consumer Cyclical",
+            "company_name": "Auto Manufacturers",
+            "latest_news": [
+                "Four Indian stocks added, four excluded from key global index in MSCI's May rejig",
+                "Hyundai India's quarterly profit misses view on higher costs",
+                "Stocks in news: SBI, Titan, Hyundai, BSE, Torrent Pharma, Axis Bank",
+                "Hyundai to invest over US$5.1bn in India by 2030",
+                "Cheaper electric Hyundai Ns on the way"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Hyundai plans $5.1bn investment in India by 2030, signaling growth.",
+                    "Cheaper electric Hyundai vehicles expected, boosting market appeal."
+                ],
+                "bearish": [
+                    "Hyundai India's quarterly profit misses estimates due to higher costs."
+                ],
+                "neutral_count": 2,
+                "net_sentiment": "MIXED"
+            },
+            "signals": {
+                "valuation": "UNDERVALUED_VS_SECTOR",
+                "profitability": "STRONG",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 27.3,
+                "sector_median_pe": 28,
+                "sector_pe_band": "18-40",
+                "peer_position": "FAIR_VALUE",
+                "forward_pe_compression": true,
+                "valuation_view": "ATTRACTIVE"
+            },
+            "technical_context": {
+                "trend": "DOWNTREND",
+                "above_200_dma": false,
+                "above_50_dma": false,
+                "relative_strength_vs_index": "UNDERPERFORMING",
+                "rs_improving": true,
+                "price_structure": "BOTTOMING_WITH_HIGHER_LOWS",
+                "reversal_phase": "EARLY_REVERSAL",
+                "correction_depth_pct": 35.0,
+                "pct_from_52w_high": 35.0,
+                "pct_from_52w_low": 7.9,
+                "higher_lows_forming": true,
+                "price_stabilizing": true,
+                "reclaiming_short_ma": false,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 27.27843,
+                "forward_pe": 20.60045,
+                "roe": 29.92,
+                "eps": 66.91,
+                "revenue_growth": 4.8,
+                "market_cap": 1483050057728
+            }
+        }
+    ]
+}

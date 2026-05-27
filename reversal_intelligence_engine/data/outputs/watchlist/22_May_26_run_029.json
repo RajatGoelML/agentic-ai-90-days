@@ -1,0 +1,374 @@
+{
+    "generated_at": "2026-05-22T10:28:16.026971+00:00",
+    "run_number": 29,
+    "stocks_analyzed": 4,
+    "token_usage": {
+        "model": "gpt-4.1-mini",
+        "total_llm_calls": 16,
+        "input_tokens": 10132,
+        "output_tokens": 3233,
+        "total_tokens": 13365,
+        "estimated_cost_usd": 0.009226
+    },
+    "recommendations": [
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.7,
+            "summary": "BAJFINANCE shows credible early reversal signs with improving relative strength and strong fundamentals despite lacking higher lows or volume spikes; valuation remains a concern due to premium pricing. The consolidation phase and positive earnings momentum support a tilt toward recovery but technical confirmation is pending.",
+            "reversal_quality": "Credible early reversal setup with strong business fundamentals and improving relative strength, but technical signals are not fully confirmed yet.",
+            "supporting_signals": [
+                "STRONG_ROE",
+                "HIGH_GROWTH",
+                "POSITIVE_REVENUE_GROWTH",
+                "RS_IMPROVING",
+                "EARNINGS_GROWTH_NORMALIZING"
+            ],
+            "risk_signals": [
+                "OVERVALUED_VS_SECTOR",
+                "NO_HIGHER_LOWS",
+                "NO_VOLUME_SPIKES",
+                "PREMIUM_TO_SECTOR"
+            ],
+            "bull_case_summary": "Strong Q3 earnings and improving relative strength indicate early signs of a recovery in a fundamentally robust company.",
+            "bear_case_summary": "Premium valuation and absence of clear technical stabilization could limit upside and delay reversal confirmation.",
+            "risk_reward": {
+                "base_case_upside_pct": 15,
+                "bear_case_downside_pct": 10,
+                "bull_case_upside_pct": 30,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "BAJFINANCE.NS",
+            "sector": "Financial Services",
+            "company_name": "Bajaj Finance Limited",
+            "chartink_sector": "financials",
+            "screening_price": 9120.5,
+            "screening_volume": 4500000.0,
+            "data_warnings": [
+                "⚠️  D/E 313.4 > 150 — significant leverage risk"
+            ],
+            "latest_news": [
+                "India's stock benchmarks advance on financials, IT strength",
+                "Bajaj Finance Allots 81.95 Lakh Equity Shares Under ESOP Scheme",
+                "Bajaj Finance Shares Recapture ₹1,000 Level As Highs Approach",
+                "India's Bajaj Finance jumps to record as strong Q3 earnings light up growth path",
+                "This Diwali, Secure Quick Funds at Competitive Interest Rates with Bajaj Finance"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Bajaj Finance shares rise to record highs on strong Q3 earnings.",
+                    "Shares recapture ₹1,000 level indicating positive momentum."
+                ],
+                "bearish": [],
+                "neutral_count": 3,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "OVERVALUED_VS_SECTOR",
+                "profitability": "STRONG",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 30.1,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "PREMIUM",
+                "forward_pe_compression": true,
+                "valuation_view": "EXPENSIVE_VS_SECTOR"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": false,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 16.2,
+                "pct_from_52w_high": 16.2,
+                "pct_from_52w_low": 14.3,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": false,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 30.05082,
+                "forward_pe": 18.532713,
+                "roe": 17.91,
+                "eps": 30.5,
+                "revenue_growth": 26.8,
+                "market_cap": 5698994831360
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.75,
+            "summary": "ITC is showing credible early reversal signs with price stabilizing in an accumulation zone and improving relative strength despite ongoing downtrend and lack of higher lows. Strong profitability and attractive valuation support recovery potential, though regulatory risks and slow revenue growth temper confidence.",
+            "reversal_quality": "The reversal appears credible but is not yet fully confirmed; stabilization and improving RS suggest a base-building phase rather than structural decline.",
+            "supporting_signals": [
+                "UNDERVALUED_VS_SECTOR",
+                "STRONG_ROE",
+                "ACCUMULATION_ZONE",
+                "PRICE_STABILIZING",
+                "RS_IMPROVING"
+            ],
+            "risk_signals": [
+                "LOW_REVENUE_GROWTH",
+                "BEARISH_NEWS_TAX_SHOCK",
+                "RATING_CUTS"
+            ],
+            "bull_case_summary": "ITC is likely bottoming with improving technicals and attractive valuation amid strong profitability.",
+            "bear_case_summary": "Regulatory tax shocks and negative revenue growth could impair recovery and prolong downtrend.",
+            "risk_reward": {
+                "base_case_upside_pct": 20,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 35,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "ITC.NS",
+            "sector": "Consumer Defensive",
+            "company_name": "ITC Limited",
+            "chartink_sector": "consumer staples",
+            "screening_price": 428.9,
+            "screening_volume": 8500000.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Indian shares start 2026 on a subdued note; auto rally offsets decline in ITC",
+                "India’s ITC sheds US$7 bil as ‘tax shock’ triggers rating cuts",
+                "Indian tobacco stocks tank as government levies new tax on cigarettes",
+                "Nifty 50",
+                "British American Tobacco plc looks to sell down stake in India's ITC Hotels to reduce debt"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Auto rally offsets decline in ITC, supporting stock price."
+                ],
+                "bearish": [
+                    "Tax shock causes US$7 bil loss, triggering rating cuts for ITC.",
+                    "New government tax causes Indian tobacco stocks to tank."
+                ],
+                "neutral_count": 2,
+                "net_sentiment": "BEARISH"
+            },
+            "signals": {
+                "valuation": "UNDERVALUED_VS_SECTOR",
+                "profitability": "STRONG",
+                "growth": "SLOW_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 18.3,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "FAIR_VALUE",
+                "forward_pe_compression": false,
+                "valuation_view": "ATTRACTIVE"
+            },
+            "technical_context": {
+                "trend": "DOWNTREND",
+                "above_200_dma": false,
+                "above_50_dma": false,
+                "relative_strength_vs_index": "INLINE",
+                "rs_improving": true,
+                "price_structure": "STABILIZING_AFTER_CORRECTION",
+                "reversal_phase": "ACCUMULATION_ZONE",
+                "correction_depth_pct": 29.2,
+                "pct_from_52w_high": 29.2,
+                "pct_from_52w_low": 4.9,
+                "higher_lows_forming": false,
+                "price_stabilizing": true,
+                "reclaiming_short_ma": false,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 18.273773,
+                "forward_pe": 16.640156,
+                "roe": 29.34,
+                "eps": 16.51,
+                "revenue_growth": -5.0,
+                "market_cap": 3780140859392
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.65,
+            "summary": "SUZLON.NS shows strong revenue growth and is in a consolidation phase after a significant correction, indicating potential for recovery despite lack of confirmed technical reversal signals. The valuation is fair to slightly expensive, and bullish analyst sentiment supports a recovery narrative, though technical confirmation is still pending.",
+            "reversal_quality": "The reversal is credible based on fundamental growth and consolidation, but technical signals are not yet confirming a sustained recovery.",
+            "supporting_signals": [
+                "HIGH_GROWTH",
+                "CONSOLIDATION_PHASE",
+                "POSITIVE_REVENUE_GROWTH",
+                "BULLISH_ANALYST_SENTIMENT"
+            ],
+            "risk_signals": [
+                "NO_HIGHER_LOWS",
+                "NO_RS_IMPROVEMENT",
+                "NORMAL_VOLUME",
+                "FAIRLY_VALUED_WITH_SLIGHT_PREMIUM"
+            ],
+            "bull_case_summary": "Strong revenue growth and positive analyst ratings suggest fundamental recovery potential.",
+            "bear_case_summary": "Lack of profitability data and absence of technical reversal confirmation may delay or limit recovery.",
+            "risk_reward": {
+                "base_case_upside_pct": 25,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 40,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "SUZLON.NS",
+            "sector": "Industrials",
+            "company_name": "Suzlon Energy Limited",
+            "chartink_sector": "industrials",
+            "screening_price": 52.4,
+            "screening_volume": 45000000.0,
+            "data_warnings": [],
+            "latest_news": [
+                "SUZLON.NS Stock Energy Shock: Why Investors Think a Big Move Is Coming Soon",
+                "How Suzlon Energy (NSEI:SUZLON) Narrative Is Shifting On Higher Revenue Assumptions And Risk Views",
+                "SUZLON.NS Stock Analysis 2026: Renewable Energy Growth, Financial Recovery, and Future Outlook",
+                "How The Suzlon Energy (NSEI:SUZLON) Story Is Evolving Around A Steady ₹62.91 Fair Value",
+                "Suzlon Energy stock initiated with Buy rating at UBS on wind energy upcycle"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Buy rating at UBS signals confidence in wind energy upcycle.",
+                    "Higher revenue assumptions indicate positive growth outlook."
+                ],
+                "bearish": [],
+                "neutral_count": 3,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "FAIRLY_VALUED",
+                "profitability": "UNKNOWN",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 22.8,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "SLIGHT_PREMIUM",
+                "forward_pe_compression": false,
+                "valuation_view": "FAIR_TO_SLIGHTLY_EXPENSIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": true,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "OUTPERFORMING",
+                "rs_improving": false,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 24.8,
+                "pct_from_52w_high": 24.8,
+                "pct_from_52w_low": 35.9,
+                "higher_lows_forming": false,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": false,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 22.775425,
+                "forward_pe": 27.193296,
+                "roe": null,
+                "eps": 2.36,
+                "revenue_growth": 42.4,
+                "market_cap": 737217806336
+            }
+        },
+        {
+            "decision": "EARLY_REVERSAL_CANDIDATE",
+            "confidence": 0.75,
+            "summary": "YESBANK shows credible early reversal signs with consolidation and higher lows, supported by improving relative strength and attractive valuation, though profitability remains weak. The recent capital injection and strategic stake acquisition provide fundamental catalysts, but low ROE and partnership risks temper conviction.",
+            "reversal_quality": "The stock is in a credible early reversal phase with technical stabilization and fundamental improvements, but profitability weakness and partnership uncertainties prevent full confirmation.",
+            "supporting_signals": [
+                "SECTOR_DISCOUNT",
+                "EARNINGS_GROWTH_NORMALIZING",
+                "POSITIVE_REVENUE_GROWTH",
+                "HIGHER_LOWS",
+                "RS_IMPROVING",
+                "Sumitomo Mitsui's $1.8bn injection",
+                "SMBC 20% stake acquisition",
+                "Q3 profit surge"
+            ],
+            "risk_signals": [
+                "LOW_ROE",
+                "SMBC limiting stake to 25%",
+                "NORMAL volume without strong buying confirmation"
+            ],
+            "bull_case_summary": "Attractive valuation and strong revenue growth combined with technical signs of stabilization and strategic capital infusion support a likely recovery.",
+            "bear_case_summary": "Weak profitability and potential partnership risks could limit recovery and cause renewed declines if negative catalysts materialize.",
+            "risk_reward": {
+                "base_case_upside_pct": 25,
+                "bear_case_downside_pct": 15,
+                "bull_case_upside_pct": 40,
+                "risk_reward_view": "FAVORABLE"
+            },
+            "parse_failed": false,
+            "symbol": "YESBANK.NS",
+            "sector": "Financial Services",
+            "company_name": "Yes Bank Limited",
+            "chartink_sector": "financials",
+            "screening_price": 18.7,
+            "screening_volume": 120000000.0,
+            "data_warnings": [],
+            "latest_news": [
+                "Exclusive-Nippon Life's India asset manager to settle Yes Bank investment case, document shows",
+                "Exclusive: SMBC rules out raising stake in Yes Bank beyond 25%, Yes shares tumble",
+                "Sumitomo Mitsui to reportedly inject $1.8bn into India’s Yes Bank",
+                "India's Yes Bank up after Japan's SMBC agrees to buy 20% stake",
+                "India's Yes Bank reports profit surge in Q3 on lower provisions"
+            ],
+            "news_sentiment": {
+                "bullish": [
+                    "Sumitomo Mitsui's $1.8bn injection boosts Yes Bank's financial strength",
+                    "Yes Bank rises as SMBC agrees to buy 20% stake",
+                    "Yes Bank's Q3 profit surge signals strong financial performance"
+                ],
+                "bearish": [
+                    "Yes Bank shares tumble as SMBC limits stake to 25%"
+                ],
+                "neutral_count": 1,
+                "net_sentiment": "BULLISH"
+            },
+            "signals": {
+                "valuation": "UNDERVALUED_VS_SECTOR",
+                "profitability": "WEAK",
+                "growth": "HIGH_GROWTH"
+            },
+            "relative_valuation": {
+                "company_pe": 19.5,
+                "sector_median_pe": 20,
+                "sector_pe_band": "12-30",
+                "peer_position": "FAIR_VALUE",
+                "forward_pe_compression": true,
+                "valuation_view": "ATTRACTIVE"
+            },
+            "technical_context": {
+                "trend": "SIDEWAYS",
+                "above_200_dma": true,
+                "above_50_dma": true,
+                "relative_strength_vs_index": "OUTPERFORMING",
+                "rs_improving": true,
+                "price_structure": "CONSOLIDATION",
+                "reversal_phase": "TRANSITION",
+                "correction_depth_pct": 9.0,
+                "pct_from_52w_high": 9.0,
+                "pct_from_52w_low": 26.8,
+                "higher_lows_forming": true,
+                "price_stabilizing": false,
+                "reclaiming_short_ma": false,
+                "volume_signal": "NORMAL"
+            },
+            "metrics": {
+                "pe_ratio": 19.526787,
+                "forward_pe": 12.427196,
+                "roe": 7.09,
+                "eps": 1.12,
+                "revenue_growth": 19.8,
+                "market_cap": 686401585152
+            }
+        }
+    ]
+}
